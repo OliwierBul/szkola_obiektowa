@@ -14,6 +14,12 @@ public class Main {
         System.out.println("liczba uczniow " + uczen.getLiczba_uczniow());
         System.out.println(uczen);
         System.out.println(uczen2);
+        nauczyciel nauczyciel1 = new nauczyciel("Marzena", 19, "WF");
+        System.out.println(nauczyciel1);
+
+        nauczyciel1.wymkonajdyzuz();
+        uczen2.wymkonajdyzuz();
+
 
     }
 }

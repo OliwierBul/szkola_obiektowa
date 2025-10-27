@@ -1,4 +1,4 @@
-public class uczen extends Osoba{
+public class uczen extends Osoba implements Dyzurny{
     //uczen jest klasa pochodnia klasy bazowej osoba
     //dziedziczenie (bierze wszystko i dodaje cudawniaki)
     private int numer_ucznia;
@@ -43,5 +43,10 @@ public class uczen extends Osoba{
                 "numer_ucznia=" + numer_ucznia +
                 ", imie='" + imie +
                 " wiek = " + getWiek();
+    }
+
+    @Override
+    public void wymkonajdyzuz() {
+        System.out.println("czysta tablica");
     }
 }
