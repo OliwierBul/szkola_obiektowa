@@ -1,4 +1,4 @@
-public class nauczyciel extends Osoba implements Dyzurny{
+public sealed class nauczyciel extends Osoba implements Dyzurny permits Wychowawca{
     private String przedmiot= "";
 
     public nauczyciel(String imie, int wiek, String przedmiot) {
