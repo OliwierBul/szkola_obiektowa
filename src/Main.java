@@ -16,7 +16,7 @@ public class Main {
         System.out.println(uczen2);
         nauczyciel nauczyciel1 = new nauczyciel("Marzena", 19, "WF");
         System.out.println(nauczyciel1);
-
+        System.out.println("proba");
         nauczyciel1.wymkonajdyzuz();
         uczen2.wymkonajdyzuz();
 
